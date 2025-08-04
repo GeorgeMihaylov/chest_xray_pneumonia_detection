@@ -2,9 +2,6 @@ import tensorflow as tf
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 import os
 
-# Пути к папкам с данными
-# Убедитесь, что 'data' - это название папки, в которой лежит ваш датасет
-# Если папка называется по-другому, измените путь ниже
 data_dir = 'chest_xray'
 train_dir = os.path.join(data_dir, 'train')
 val_dir = os.path.join(data_dir, 'val')
